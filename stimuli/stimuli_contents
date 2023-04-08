@@ -2,4 +2,4 @@
 "pics_3panes" contains the pseudocode and code stimuli used in the POST scan. Note that in the POST scan, the same participant never saw the pseudocode and the code implementing the same algorithm.
 "pics_3panes_lang" contains the pseudocode control stimuli used in both the PRE and the POST scan
 "pics_fake" contains the code control stimuli used in the POST scan
-Not all stimuli in the folders were used in the MRI experiments, for the actual roster of the files used, please refer to "item_roster_github.xlsx" outside of the "stimuli" folder.
+Not all stimuli in the folders were used in the MRI experiments, for the actual roster of the files used, please refer to "item_roster.xlsx" in the folder "MRI_exp"
