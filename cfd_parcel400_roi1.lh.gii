@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GIFTI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="http://brainvis.wustl.edu/caret6/xml_schemas/GIFTI_Caret.xsd"
+       Version="1"
+       NumberOfDataArrays="1">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[AnatomicalStructurePrimary]]></Name>
+         <Value><![CDATA[CortexLeft]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[ParentProvenance]]></Name>
+         <Value><![CDATA[/export/bedny/Tools/NPDL-scripts/subjects/32k_fs_LR/surf/lh.midthickness.surf.gii:
+/usr/share/workbench/bin_linux64/../exe_linux64/wb_command -surface-resample fsaverage/surf/lh.midthickness.surf.gii fsaverage/surf/lh.sphere.surf.gii lh.32k_fs_LR.sphere.reg.surf.gii BARYCENTRIC 32k_fs_LR/surf/lh.midthickness.surf.gii
+
+]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[ProgramProvenance]]></Name>
+         <Value><![CDATA[Connectome Workbench
+Type: Command Line Application
+Version: 1.3.2
+Qt Compiled Version: 5.7.0
+Qt Runtime Version: 5.7.0
+Commit: 1c774d37d6cb5a179e0de3cbe1081cd1f698963a
+Commit Date: 2018-08-28 08:50:51 -0500
+Compiled with OpenMP: YES
+Compiler: g++ (/act/gcc-4.7.2/bin)
+Compiler Version: 4.7.2
+Compiled Debug: NO
+Operating System: Linux
+]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[Provenance]]></Name>
+         <Value><![CDATA[/usr/local/workbench/bin_rh_linux64/../exe_rh_linux64/wb_command -metric-convert -from-nifti /tmp/img_save-m4kj3vgl/img.nii.gz /export/bedny/Tools/NPDL-scripts/subjects/32k_fs_LR/surf/lh.midthickness.surf.gii ROI_MVPA/parcel400_roi1.lh.gii.shape.gii]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[WorkingDirectory]]></Name>
+         <Value><![CDATA[/export/bedny/Projects/CODE]]></Value>
+      </MD>
+   </MetaData>
+   <LabelTable>
+      <Label Key="0" Red="1" Green="1" Blue="1" Alpha="0"><![CDATA[???]]></Label>
+   </LabelTable>
+<DataArray Intent="NIFTI_INTENT_NORMAL"
+           DataType="NIFTI_TYPE_FLOAT32"
+           ArrayIndexingOrder="RowMajorOrder"
+           Dimensionality="1"
+           Dim0="32492"
+           Encoding="GZipBase64Binary"
+           Endian="LittleEndian"
+           ExternalFileName=""
+           ExternalFileOffset="0">
+   <MetaData>
+   </MetaData>
+   <Data>eJzt3UtOwzAUQNHujK2xdJRZB4GS2M77+BwpE1Sc+9ykiAzg9Trz/XX6ZQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACgmeN/Fj1xZNJpvh3eu65zHTrO9K7bPIdOsxy6zHHYZYbMurZn1qU5q8qtGVVrzKZCWzYZmwAA6KHyM5D/GH2u22EPKuv83nSdreNc5smr8xzVVJ+hS3slmter1FultUJn9j4AAAAAAAAAAAAAAAAAAACA1Wb8/bknD7PVm81M+Y9O89yZJeNsI6LbR2eI7u7Qv0t3dG/FZq0xnZn3Mrrtr77orrO26J6zruiW96bohsw9OxyRex71GfLJnf351H/XlTlmnfNsPQAAANhJpd+FZz+LWK1Sb5XWWc8EszU+uf+Z+7K2zeya1Ta7abSra0t0x6jo+yfqnr1y7qfPu0KmGaueq8M5Vq5fad3Vn+UZ1pqxzuj1MnJv3v1svvN9V38WXHn9zNdlO7rrvFddr4mO13y3e9ks+8xhhj36dT/TO9r8vkbm3igVGqt0Vu+LVK0rSxMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADA734Aaz/OhA==</Data>
+</DataArray>
+</GIFTI>
